@@ -1,4 +1,4 @@
-package kb.queue;
+package questions.queue;
 
 public class QueueQuestions {
 }

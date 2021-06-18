@@ -1,4 +1,4 @@
-package kb.stack;
+package questions.stack;
 
 public class StackQuestions {
 }

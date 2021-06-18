@@ -1,4 +1,4 @@
-package kb.list.array;
+package questions.list.array;
 
 public class ArrayQuestions {
 }

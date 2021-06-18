@@ -1,0 +1,29 @@
+-----------------------------------------------------------------------------------------------
+In Order Traversal (left-root-right) => Used to get Increasing/Ascending order
+1. Recursion[O(n)] = inorder(Node node)
+    Call same method on all left nodes  -> inorder(node.left)
+    Print root                          -> print(node.key)
+    Call same method on all right nodes -> inorder(node.right)
+
+
+
+-----------------------------------------------------------------------------------------------
+Post Order Traversal (left-right-root)
+1. Recursion[O(n)] = postorder(Node node)
+    Call same method on all left nodes  -> postorder(node.left)
+    Call same method on all right nodes -> postorder(node.right)
+    Print root                          -> print(node.key)
+
+
+
+
+-----------------------------------------------------------------------------------------------
+Pre Order Traversal (root-left-right)
+1. Recursion[O(n)] = preorder(Node node)
+    Print root                          -> print(node.key)
+    Call same method on all left nodes  -> preorder(node.left)
+    Call same method on all right nodes -> preorder(node.right)
+
+
+
+-----------------------------------------------------------------------------------------------
