@@ -7,9 +7,12 @@ public class BinaryTreeRunner {
     }
 
     static BinaryTreeImpl generateBT(){
-        BinaryTreeImpl<Integer> binaryTree = new BinaryTreeImpl<>(1);
+        BinaryTreeImpl<Integer> binaryTree = new BinaryTreeImpl<>(4);
         binaryTree.addNode(binaryTree.root, new Node<>(2), true);
-        binaryTree.addNode(binaryTree.root, new Node<>(3), false);
+        binaryTree.addNode(binaryTree.root, new Node<>(5), false);
+
+        binaryTree.addNode(binaryTree.root.left, new Node<>(1), true);
+        binaryTree.addNode(binaryTree.root.left, new Node<>(3), false);
         return binaryTree;
     }
 }
