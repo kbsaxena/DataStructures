@@ -1,0 +1,3 @@
+- Have at most 2 children(2 or less)
+- Binary Tree contains - root, left and right
+- Elements with no children are called leaves
